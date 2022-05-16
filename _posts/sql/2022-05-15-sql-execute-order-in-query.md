@@ -8,11 +8,11 @@ tags: [sql]
 comments: true
 crosspost_to_medium: true
 ---
-# Query的書寫順序與執行順序
+# SQL查詢的書寫順序與執行順序
 ## 書寫順序
 SELECT子句是必須的，其他子句如WHERE子句、GROUP BY子句等是可選的。
 在查詢語句中，子句的順序是固定的，必須嚴格按照以下的順序書寫。
-```sql
+```
 SELECT DISTINCT <Select_list>
 FROM <left_table> <join_type>JOIN<right_table>
 ON<join_condition>
@@ -26,7 +26,7 @@ LIMIT<limit_number>
 ## 執行順序
 ![](../../assets/images/sql/execute-order.png)  
 所有的查詢語句都是從FROM開始執行，在執行過程中，每個步驟都會生成一個虛擬表，這個虛擬表將作為下一個執行步驟的輸入，最後一個步驟產生的虛擬表即為輸出結果。
-```sql
+```
 (9) SELECT 
 (10) DISTINCT <column>,
 (6) AGG_FUNC <column> or <expression>, ...
