@@ -1,8 +1,9 @@
 _site
 .sass-cache
 .jekyll-metadata
+.env
 node_modules
-#Gemfile.lock
+Gemfile.lock
 ### Example user template template
 ### Example user template
 
