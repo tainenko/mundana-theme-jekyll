@@ -5,6 +5,7 @@ author: tony
 categories: [interview, backend]
 image: assets/images/17Media-backend-interview.png
 tags: [interview,backend,17media]
+crosspost_to_medium: true
 ---
 以下是網路上找到的 17 Media 後端面試題目，並且加上個人的解法。
 
