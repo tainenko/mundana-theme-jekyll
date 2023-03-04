@@ -2,7 +2,7 @@
 layout: post
 title:  "SQL order of execution"
 author: tony
-categories: [ sql ]
+categories : [ sql ]
 image: assets/images/sql/order-of-execution.png
 tags: [sql]
 comments: true
