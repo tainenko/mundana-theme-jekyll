@@ -22,6 +22,7 @@ jobs:
       - uses: helaili/jekyll-action@2.0.5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
         env:
           MEDIUM_INTEGRATION_TOKEN: ${{ secrets.MEDIUM_INTEGRATION_TOKEN }}
           MEDIUM_USER_ID: ${{ secrets.MEDIUM_USER_ID }}
